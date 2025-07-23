@@ -1,2 +1,3 @@
-# CheYHinSpark-Theme
-These are themes for VS Code made by CheYHinSpark. 
+# cheyhinspark-theme README
+
+This is my themes. 

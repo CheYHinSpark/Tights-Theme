@@ -1,0 +1,31 @@
+{
+	"name": "cheyhinspark-theme",
+	"displayName": "CheYHinSpark Theme",
+	"description": "A beautiful theme",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.102.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "CheYHinSpark Light",
+				"uiTheme": "vs",
+				"path": "./themes/cheyhinspark-light.json"
+			},
+			{
+				"label": "CheYHinSpark Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cheyhinspark-dark.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1753204871186,
+		"targetPlatform": "undefined",
+		"size": 66889
+	}
+}
