@@ -26,6 +26,8 @@
 		"editor.background": "#453C32",
 		"editor.findMatchBackground": "#A86420",
 		"editor.findMatchHighlightBackground": "#A8642080",
+		"editor.foldBackground": "#A3866880",
+		"editor.foldPlaceholderForeground": "#D1BEAB",
 		"editor.foreground": "#E3E3E3",
 		"editor.lineHighlightBorder": "#A38668",
 		"editor.selectionBackground": "#103254",
@@ -61,6 +63,8 @@
 		"sideBarSectionHeader.background": "#5C4B3B",
 		"sideBarStickyScroll.shadow": "#171615",
 		"statusBar.background": "#73593F",
+		"statusBar.debuggingBackground": "#FC9630",
+		"statusBar.debuggingFackground": "#FFFFFF",
 		"statusBar.foreground": "#E3E3E3",
 		"statusBar.noFolderBackground": "#5C4B3B",
 		"tab.activeBackground": "#453C32",
@@ -140,13 +144,9 @@
 		},
 		{
 			"scope": [
-				"punctuation.seperator",
-				"punctuation.separator.arguments",
-				"punctuation.separator.colon",
-				"punctuation.separator.element",
-				"punctuation.separator.parameters",
 				"punctuation.section",
-				"punctuation.separator.period",
+				"punctuation.separator",
+				"punctuation.terminator",
 				"meta.preprocessor"
 			],
 			"settings": {
@@ -168,6 +168,7 @@
 				"constant.character",
 				"constant.numeric",
 				"constant.other",
+				"constant.language",
 				"keyword.operator",
 				"punctuation.math",
 				"punctuation.definition.bold"
@@ -215,7 +216,8 @@
 				"punctuation.definition.tag",
 				"constant.other.general.math",
 				"constant.character.math",
-				"punctuation.definition.constant.math"
+				"punctuation.definition.constant.math",
+				"storage.modifier.import"
 			],
 			"settings": {
 				"foreground": "#75B9FD"
