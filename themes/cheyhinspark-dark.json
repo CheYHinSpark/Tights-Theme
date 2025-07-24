@@ -77,6 +77,59 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "markup.bold",
+			"settings": {
+				"foreground": "#FDB975",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"foreground": "#FDB975",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#20A820"
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#A82020"
+			}
+		},
+		{
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#2020A8"
+			}
+		},
+		
+		{
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#FC3030"
+			}
+		},
+		{
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
@@ -87,10 +140,13 @@
 		},
 		{
 			"scope": [
-				"punctuation",
 				"punctuation.seperator",
-				"punctuation.seperator.arguments",
-				"punctuation.seperator.parameters",
+				"punctuation.separator.arguments",
+				"punctuation.separator.colon",
+				"punctuation.separator.element",
+				"punctuation.separator.parameters",
+				"punctuation.section",
+				"punctuation.separator.period",
 				"meta.preprocessor"
 			],
 			"settings": {
@@ -112,7 +168,9 @@
 				"constant.character",
 				"constant.numeric",
 				"constant.other",
-				"keyword.operator"
+				"keyword.operator",
+				"punctuation.math",
+				"punctuation.definition.bold"
 			],
 			"settings": {
 				"foreground": "#FDB975"
@@ -120,7 +178,10 @@
 		},
 		{
 			"scope": [
-				"storage"
+				"storage",
+				"heading",
+				"punctuation.definition.heading",
+				"entity.name.section"
 			],
 			"settings": {
 				"foreground": "#B9FD75"
@@ -151,7 +212,10 @@
 				"source",
 				"meta.function-call.arguments",
 				"entity.name.tag",
-				"punctuation.definition.tag"
+				"punctuation.definition.tag",
+				"constant.other.general.math",
+				"constant.character.math",
+				"punctuation.definition.constant.math"
 			],
 			"settings": {
 				"foreground": "#75B9FD"
@@ -170,6 +234,7 @@
 		},
 		{
 			"scope": [
+				"meta.preamble",
 				"entity.name.type.class",
 				"entity.other.inherited-class"
 			],
