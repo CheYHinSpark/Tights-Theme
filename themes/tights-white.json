@@ -195,6 +195,7 @@
 		{
 			"scope": [
 				"variable.parameter",
+				"entity.name.variable.property",
 				"meta.property-value"
 			],
 			"settings": {
@@ -241,7 +242,7 @@
 		{
 			"scope": [
 				"meta.preamble",
-				"entity.name.type.class",
+				"entity.name.type",
 				"entity.other.inherited-class"
 			],
 			"settings": {
