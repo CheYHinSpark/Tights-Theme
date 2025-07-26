@@ -3,6 +3,7 @@
 	"displayName": "Tights Theme",
 	"description": "Beautiful theme inspired by tights on legs. ",
 	"publisher": "CheYHinSpark",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/CheYHinSpark/Tights-Theme"
