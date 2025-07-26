@@ -2,6 +2,11 @@
 	"name": "tights-theme",
 	"displayName": "Tights Theme",
 	"description": "Beautiful theme inspired by tights on legs. ",
+	"publisher": "CheYHinSpark",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CheYHinSpark/Tights-Theme"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.102.0"
