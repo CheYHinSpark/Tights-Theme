@@ -1,3 +1,3 @@
-# cheyhinspark-theme README
+# tights-theme README
 
-This is my themes. 
+This collection contains beautiful VS Code themes inspired by tights on legs. 

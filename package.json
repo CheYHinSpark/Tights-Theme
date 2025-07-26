@@ -1,7 +1,7 @@
 {
-	"name": "cheyhinspark-theme",
-	"displayName": "CheYHinSpark Theme",
-	"description": "A beautiful theme",
+	"name": "tights-theme",
+	"displayName": "Tights Theme",
+	"description": "Beautiful theme inspired by tights on legs. ",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.102.0"
@@ -12,20 +12,20 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "CheYHinSpark Light",
+				"label": "Tights White",
 				"uiTheme": "vs",
-				"path": "./themes/cheyhinspark-light.json"
+				"path": "./themes/tights-white.json"
 			},
 			{
-				"label": "CheYHinSpark Dark",
+				"label": "Tights Sand",
+				"uiTheme": "vs",
+				"path": "./themes/tights-sand.json"
+			},
+			{
+				"label": "Tights Black",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cheyhinspark-dark.json"
+				"path": "./themes/tights-black.json"
 			}
 		]
-	},
-	"__metadata": {
-		"installedTimestamp": 1753204871186,
-		"targetPlatform": "undefined",
-		"size": 66889
 	}
 }
